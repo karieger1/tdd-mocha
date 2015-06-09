@@ -1,0 +1,19 @@
+{
+  "name": "dist",
+  "version": "0.0.0",
+  "homepage": "https://github.com/karieger1/tdd-mocha",
+  "authors": [
+    "Kristen Rieger <karieger1@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "chai": "~2.3.0"
+  }
+}
