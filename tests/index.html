@@ -8,14 +8,13 @@
   </head>
   <body>
     <div id="mocha"></div>
-    <script type="text/javascript" src="../dist/bower_components/chai/chai.js"></script>
-    <script type="text/javascript" src="../dist/main.js"></script>
     <script src="mocha.js"></script>
+    <script src="../bower_components/chai/chai.js"></script>
+    <script src="../dist/main.js"></script>
     <script>mocha.setup('bdd')</script>
-    <script src="tests.js"></script>  <!--this must be at bottom! -->
+    <script src="tests.js"></script>
     <script>
       mocha.run();
     </script>
-    <!-- write tests inside tests/tests.js. write functions in dist/main.js -->
   </body>
 </html>
